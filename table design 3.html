@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-3</title>
+    <style>
+        .head{
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: underline;
+            color: brown;
+            margin-bottom: 20px;
+        }
+        thead{
+            height: 50px;
+
+        }
+        body{
+            text-align: center;
+        }
+        .table{
+            background-color: antiquewhite;
+        }
+        .class{
+            background-color: aqua;
+            color: red;
+        }
+        .name{
+            color: blue;
+        }
+        .d{
+            color: rgb(196, 11, 168);
+        }
+        .color{
+            color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" width="900">
+        <caption class="head">Tour In Places</caption>
+        <thead>
+            <tr class="class">
+                <th colspan="2">Places</th>
+                <th colspan="3">Locations</th>
+            </tr>
+            <tr class="table">
+                <th>Sl No</th>
+                <th>Places</th>
+                <th>Picture</th>
+                <th>States</th>
+                <th>Explain</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="name">Charminar</td>
+                <td>
+                    <img src="images/char.jpg" width="100" height="100">
+                </td>
+                <td class="d">Telangana</td>
+                <td>
+                    <ol class="color">
+                        <li>Its a beautyfull place in hyderabad</li>
+                        <li>Monument located in Hyderabad</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="name">Tirupathi</td>
+                <td>
+                    <img src="images/tirumala.jpg" width="100" height="100">
+                </td>
+                <td class="d">Andra Pradesh</td>
+                <td>
+                    <ol class="color">
+                        <li>Tirumal temple is gods of Venkateswara</li>
+                        <li>Peaceful place in temple</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="name">Aghra</td>
+                <td>
+                    <img src="images/taj.jpg" width="100" height="100">
+                </td>
+                <td class="d">Delhi</td>
+                <td>
+                    <ol class="color">
+                        <li>The symbol of love</li> 
+                        <li>Awesome place </li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" ><font color="blue">....Visit Here....</font></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
